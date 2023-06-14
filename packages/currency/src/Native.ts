@@ -31,7 +31,8 @@ export class Native extends Currency {
     if (chainId in this.cache) {
       return this.cache[chainId]
     }
-
+    console.log({ chainId })
+    console.log({ chains })
     invariant(!!(chainId in chains), 'CHAINS')
 
     const { nativeCurrency } = chains[chainId]

@@ -231,10 +231,12 @@ export const COMMON_BASES = {
     USDC[ChainId.BTTC],
     USDT[ChainId.BTTC],
   ],
-  // [ChainId.CONSENSUS_ZKEVM_TESTNET]: [
-  //   Native.onChain(ChainId.CONSENSUS_ZKEVM_TESTNET),
-  //   WNATIVE[ChainId.CONSENSUS_ZKEVM_TESTNET],
-  // ],
+  [ChainId.LINEA_TESTNET]: [
+    Native.onChain(ChainId.LINEA_TESTNET),
+    WNATIVE[ChainId.LINEA_TESTNET],
+    USDC[ChainId.LINEA_TESTNET],
+    USDT[ChainId.LINEA_TESTNET],
+  ],
   // [ChainId.SCROLL_ALPHA_TESTNET]: [Native.onChain(ChainId.SCROLL_ALPHA_TESTNET), WNATIVE[ChainId.SCROLL_ALPHA_TESTNET]],
   // [ChainId.BASE_TESTNET]: [Native.onChain(ChainId.BASE_TESTNET), WNATIVE[ChainId.BASE_TESTNET]],
   [ChainId.POLYGON_ZKEVM]: [

@@ -1,6 +1,6 @@
 import { ChainId } from '@sushiswap/chain'
 
-import { ARB, BUSD, GNO, OP, SUSHI, USDC } from './constants'
+import { ARB, BUSD, GNO, OP, SUSHI, USDC, WETH9 } from './constants'
 import { Token } from './Token'
 
 export const defaultQuoteCurrency = {
@@ -54,7 +54,7 @@ export const defaultQuoteCurrency = {
   [ChainId.BTTC]: SUSHI[ChainId.BTTC],
   [ChainId.THUNDERCORE]: USDC[ChainId.THUNDERCORE],
   // [ChainId.SEPOLIA]: USDT[ChainId.SEPOLIA],
-  // [ChainId.CONSENSUS_ZKEVM_TESTNET]: WETH9[ChainId.CONSENSUS_ZKEVM_TESTNET],
+  // [ChainId.LINEA_TESTNET]: WETH9[ChainId.LINEA_TESTNET],
   // [ChainId.SCROLL_ALPHA_TESTNET]: WETH9[ChainId.SCROLL_ALPHA_TESTNET],
   // [ChainId.BASE_TESTNET]: WETH9[ChainId.BASE_TESTNET],
   [ChainId.POLYGON_ZKEVM]: USDC[ChainId.POLYGON_ZKEVM],

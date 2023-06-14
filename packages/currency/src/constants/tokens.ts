@@ -553,7 +553,7 @@ export const WNATIVE = {
     name: 'Wrapped BitTorrent Token',
   }),
   // [ChainId.SEPOLIA]: WETH9[ChainId.SEPOLIA],
-  // [ChainId.CONSENSUS_ZKEVM_TESTNET]: WETH9[ChainId.CONSENSUS_ZKEVM_TESTNET],
+  [ChainId.LINEA_TESTNET]: WETH9[ChainId.LINEA_TESTNET],
   // [ChainId.SCROLL_ALPHA_TESTNET]: WETH9[ChainId.SCROLL_ALPHA_TESTNET],
   // [ChainId.BASE_TESTNET]: WETH9[ChainId.BASE_TESTNET],
   [ChainId.THUNDERCORE]: new Token({

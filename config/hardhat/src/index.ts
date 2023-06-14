@@ -264,8 +264,8 @@ export const defaultConfig: HardhatUserConfig = {
       live: true,
       saveDeployments: true,
     },
-    consensyszkevmgoerli: {
-      url: 'https://consensys-zkevm-goerli-prealpha.infura.io/v3/53fca4c2b95a43cca82a11e8b573256b',
+    lineagoerli: {
+      url: 'https://rpc.goerli.linea.build',
       accounts,
       chainId: 59140,
       live: true,

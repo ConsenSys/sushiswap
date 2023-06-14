@@ -200,10 +200,10 @@ const CHAIN_ID_SHORT_CURRENCY_NAME_TO_CURRENCY = {
   //   ETH: Native.onChain(ChainId.SCROLL_ALPHA_TESTNET),
   //   WETH: WNATIVE[ChainId.SCROLL_ALPHA_TESTNET],
   // },
-  // [ChainId.CONSENSUS_ZKEVM_TESTNET]: {
-  //   ETH: Native.onChain(ChainId.CONSENSUS_ZKEVM_TESTNET),
-  //   WETH: WNATIVE[ChainId.CONSENSUS_ZKEVM_TESTNET],
-  // },
+  [ChainId.LINEA_TESTNET]: {
+    ETH: Native.onChain(ChainId.LINEA_TESTNET),
+    WETH: WNATIVE[ChainId.LINEA_TESTNET],
+  },
   // [ChainId.BASE_TESTNET]: {
   //   ETH: Native.onChain(ChainId.BASE_TESTNET),
   //   WETH: WNATIVE[ChainId.BASE_TESTNET],

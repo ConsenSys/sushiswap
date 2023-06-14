@@ -69,6 +69,7 @@ const LOGO: Record<number, string> = {
   [ChainId.BTTC]: BttcLogo,
   [ChainId.POLYGON_ZKEVM]: EthereumLogo,
   [ChainId.THUNDERCORE]: ThundercoreLogo,
+  [ChainId.LINEA_TESTNET]: EthereumLogo,
 }
 
 export interface IconProps extends Omit<ImageProps, 'src' | 'alt'> {

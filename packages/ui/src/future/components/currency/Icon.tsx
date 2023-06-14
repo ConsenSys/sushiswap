@@ -67,6 +67,7 @@ const LOGO: Record<number, string> = {
   [ChainId.BTTC]: BttcLogo,
   [ChainId.POLYGON_ZKEVM]: EthereumLogo,
   [ChainId.THUNDERCORE]: ThundercoreLogo,
+  [ChainId.LINEA_TESTNET]: EthereumLogo,
 }
 
 function djb2(str: string) {
@@ -107,7 +108,7 @@ export const Icon: FC<IconProps> = ({ currency, disableLink, ...rest }) => {
     if (disableLink) {
       return (
         <div
-          className="text-xs text-white font-bold rounded-full flex items-center justify-center bg-gradient-to-b from-gray-300 to-gray-200 dark:from-blue-700 dark:to-blue-900"
+          className="flex items-center justify-center text-xs font-bold text-white rounded-full bg-gradient-to-b from-gray-300 to-gray-200 dark:from-blue-700 dark:to-blue-900"
           style={{
             width: rest.width,
             height: rest.height,
@@ -122,7 +123,7 @@ export const Icon: FC<IconProps> = ({ currency, disableLink, ...rest }) => {
     return (
       <ExternalLink className="flex" href={Chain.tokenUrl(currency.chainId, currency.wrapped.address)}>
         <div
-          className="text-xs text-white font-bold rounded-full flex items-center justify-center bg-gradient-to-b from-gray-300 to-gray-200 dark:from-blue-700 dark:to-blue-900"
+          className="flex items-center justify-center text-xs font-bold text-white rounded-full bg-gradient-to-b from-gray-300 to-gray-200 dark:from-blue-700 dark:to-blue-900"
           style={{
             width: rest.width,
             height: rest.height,
